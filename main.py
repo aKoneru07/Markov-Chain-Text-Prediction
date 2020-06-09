@@ -31,7 +31,7 @@ for fileName in files:                                      # Iterates through a
 
 first_word = random.choice(list(chain_dict.keys()))                                 # Picks Random starting Phrase
 
-while first_word[0].islower() or first_word[WINDOW-1][-1] in string.punctuation:    # Ensures start is a Capitalized
+while first_word[0].islower() or first_word[WINDOW-1][-1] in string.punctuation:    # Ensures start is Capitalized
     first_word = random.choice(list(chain_dict.keys()))
 
 chain = first_word.split()
