@@ -6,3 +6,5 @@ I was tasked with implementing a real-life application for our Linear Algebra co
 My topic of choice: *Markov Chains*
 
 This script analyzes 16 different Stephen King novels and builds a Markovian distribution based on the word usage. Then, it randomly picks a starting sequence and generates a passage of variable length.
+
+The novels were provided by Talboot on Kaggle at the following link: https://www.kaggle.com/ttalbitt/stephen-king-books
